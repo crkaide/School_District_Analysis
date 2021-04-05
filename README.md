@@ -134,6 +134,6 @@ As stated above, when code is refactored to exclude the potentially problematic 
 3. The % passing reading for THS decreases from 97.3 to 97.0.
 4. The % overall passing for THS decreases from 90.9 to 90.6.
 
-**Refactoring the code to exclude Thomas/9th causes no statistically significant changes to the school summary data.**_
+_**Refactoring the code to exclude Thomas/9th causes no statistically significant changes to the school summary data.**_
 
 Comparison shows that the final script is robust enough to accurately inform decision-making, even when the integrity of the data for certain segments of a population is in question.  The district superintendent can act with confidence based on these results.
