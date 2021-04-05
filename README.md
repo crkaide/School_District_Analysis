@@ -13,7 +13,7 @@ The client, a city school district (represented by data scientist Maria), has re
 2. The % passing math decreases from 75 to 74.8.
 3. The % passing reading decreases from 86 to 85.7.
 4. The % overall passing decreases from 65 to 46.9.
-5. **Refactoring the code to exclude Thomas/9th causes no statistically significant changes to the district summary data.**
+5. _**Refactoring the code to exclude Thomas/9th causes no statistically significant changes to the district summary data.**_
 
 ***Original***
 
@@ -25,6 +25,13 @@ The client, a city school district (represented by data scientist Maria), has re
 
 ### School summary
 
+* When code is refactored to exclude the potentially problematic population (Thomas High School, 9th grade), the following changes are observed:
+1. The average reading score for Thomas High School increases from 83.8 to 83.9.
+2. The % passing math for THS decreases from 93.3 to 93.2.
+3. The % passing reading for THS decreases from 97.3 to 97.0.
+4. The % overall passing for THS decreases from 90.9 to 90.6.
+5. _**Refactoring the code to exclude Thomas/9th causes no statistically significant changes to the school summary data.**_
+
 ***Original***
 
 ![https://github.com/crkaide/School_District_Analysis/blob/main/Report_Screen_Shots/r_2_1_per_school_summary_original.png?raw=true](https://github.com/crkaide/School_District_Analysis/blob/main/Report_Screen_Shots/r_2_1_per_school_summary_original.png?raw=true)
@@ -34,6 +41,8 @@ The client, a city school district (represented by data scientist Maria), has re
 ![https://github.com/crkaide/School_District_Analysis/blob/main/Report_Screen_Shots/r_2_2_per_school_summary_new.png?raw=true](https://github.com/crkaide/School_District_Analysis/blob/main/Report_Screen_Shots/r_2_2_per_school_summary_new.png?raw=true)
 
 ### Performance relative to other schools (top & bottom)
+
+* When code is refactored to exclude the potentially problematic population (Thomas High School, 9th grade), the same changes are observed as in the preceding list ("School summary"), and the same conclusion applies.  No change in the order/ranking occurs.
 
 ***Original Top 5***
 
@@ -55,6 +64,10 @@ The client, a city school district (represented by data scientist Maria), has re
 
 #### Math
 
+* When code is refactored to exclude the potentially problematic population (Thomas High School, 9th grade), the following changes are observed:
+1. The 9th grade % is replaced with NaN.
+2. _**No add'l or significant changes are observed.**_
+
 ***Original***
 
 ![https://github.com/crkaide/School_District_Analysis/blob/main/Report_Screen_Shots/r_5_1_math_scores_by_grade_original.png?raw=true](https://github.com/crkaide/School_District_Analysis/blob/main/Report_Screen_Shots/r_5_1_math_scores_by_grade_original.png?raw=true)
@@ -64,6 +77,10 @@ The client, a city school district (represented by data scientist Maria), has re
 ![https://github.com/crkaide/School_District_Analysis/blob/main/Report_Screen_Shots/r_5_2_math_scores_by_grade_new.png?raw=true](https://github.com/crkaide/School_District_Analysis/blob/main/Report_Screen_Shots/r_5_2_math_scores_by_grade_new.png?raw=true)
 
 #### Reading
+
+* When code is refactored to exclude the potentially problematic population (Thomas High School, 9th grade), the following changes are observed:
+1. The 9th grade % is replaced with NaN.
+2. _**No add'l or significant changes are observed.**_
 
 ***Original***
 
@@ -75,6 +92,8 @@ The client, a city school district (represented by data scientist Maria), has re
 
 ### Spending summary
 
+* When code is refactored to exclude the potentially problematic population (Thomas High School, 9th grade), no changes are observed.
+
 ***Original***
 
 ![https://github.com/crkaide/School_District_Analysis/blob/main/Report_Screen_Shots/r_7_1_spending_summary_original.png?raw=true](https://github.com/crkaide/School_District_Analysis/blob/main/Report_Screen_Shots/r_7_1_spending_summary_original.png?raw=true)
@@ -84,6 +103,8 @@ The client, a city school district (represented by data scientist Maria), has re
 ![https://github.com/crkaide/School_District_Analysis/blob/main/Report_Screen_Shots/r_7_2_spending_summary_new.png?raw=true](https://github.com/crkaide/School_District_Analysis/blob/main/Report_Screen_Shots/r_7_2_spending_summary_new.png?raw=true)
 
 ### Size summary
+
+* When code is refactored to exclude the potentially problematic population (Thomas High School, 9th grade), no changes are observed.
 
 ***Original***
 
@@ -95,6 +116,8 @@ The client, a city school district (represented by data scientist Maria), has re
 
 ### Type summary
 
+* When code is refactored to exclude the potentially problematic population (Thomas High School, 9th grade), no changes are observed.
+
 ***Original***
 
 ![https://github.com/crkaide/School_District_Analysis/blob/main/Report_Screen_Shots/r_9_1_type_summary_original.png?raw=true](https://github.com/crkaide/School_District_Analysis/blob/main/Report_Screen_Shots/r_9_1_type_summary_original.png?raw=true)
@@ -102,3 +125,15 @@ The client, a city school district (represented by data scientist Maria), has re
 ***Refactored***
 
 ![https://github.com/crkaide/School_District_Analysis/blob/main/Report_Screen_Shots/r_9_2_type_summary_new.png?raw=true](https://github.com/crkaide/School_District_Analysis/blob/main/Report_Screen_Shots/r_9_2_type_summary_new.png?raw=true)
+
+## Final conclusions
+
+As stated above, when code is refactored to exclude the potentially problematic population (Thomas High School, 9th grade), the following changes are observed:
+1. The average reading score for Thomas High School increases from 83.8 to 83.9.
+2. The % passing math for THS decreases from 93.3 to 93.2.
+3. The % passing reading for THS decreases from 97.3 to 97.0.
+4. The % overall passing for THS decreases from 90.9 to 90.6.
+
+**Refactoring the code to exclude Thomas/9th causes no statistically significant changes to the school summary data.**_
+
+Comparison shows that the final script is robust enough to accurately inform decision-making, even when the integrity of the data for certain segments of a population is in question.  The district superintendent can act with confidence based on these results.
