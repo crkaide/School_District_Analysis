@@ -126,7 +126,7 @@ The client, a city school district (represented by data scientist Maria), has re
 
 ![https://github.com/crkaide/School_District_Analysis/blob/main/Report_Screen_Shots/r_9_2_type_summary_new.png?raw=true](https://github.com/crkaide/School_District_Analysis/blob/main/Report_Screen_Shots/r_9_2_type_summary_new.png?raw=true)
 
-## Final conclusions
+## Summary & final conclusions
 
 As stated above, when code is refactored to exclude the potentially problematic population (Thomas High School, 9th grade), the following changes are observed:
 1. The average reading score for Thomas High School increases from 83.8 to 83.9.
