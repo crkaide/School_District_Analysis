@@ -8,6 +8,13 @@ The client, a city school district (represented by data scientist Maria), has re
 
 ### District summary
 
+* When code is refactored to exclude the potentially problematic population (Thomas High School, 9th grade), the following changes are observed:
+1. The average math score decreases from 79.0 to 78.9.
+2. The % passing math decreases from 75 to 74.8.
+3. The % passing reading decreases from 86 to 85.7.
+4. The % overall passing decreases from 65 to 46.9.
+5. **Refactoring the code to exclude Thomas/9th causes no statistically significant changes to the district summary data. 
+
 ***Original***
 
 ![https://github.com/crkaide/School_District_Analysis/blob/main/Report_Screen_Shots/r_1_1_district_summary_original.png?raw=true](https://github.com/crkaide/School_District_Analysis/blob/main/Report_Screen_Shots/r_1_1_district_summary_original.png?raw=true)
