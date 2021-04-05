@@ -13,7 +13,7 @@ The client, a city school district (represented by data scientist Maria), has re
 2. The % passing math decreases from 75 to 74.8.
 3. The % passing reading decreases from 86 to 85.7.
 4. The % overall passing decreases from 65 to 46.9.
-5. **Refactoring the code to exclude Thomas/9th causes no statistically significant changes to the district summary data. 
+5. **Refactoring the code to exclude Thomas/9th causes no statistically significant changes to the district summary data.**
 
 ***Original***
 
