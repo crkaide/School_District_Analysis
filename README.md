@@ -9,9 +9,11 @@ STATEMENT OF PURPOSE
 ### District summary
 
 ***Original***
+
 ![https://github.com/crkaide/School_District_Analysis/blob/main/Report_Screen_Shots/r_1_1_district_summary_original.png?raw=true](https://github.com/crkaide/School_District_Analysis/blob/main/Report_Screen_Shots/r_1_1_district_summary_original.png?raw=true)
 
 ***Refactored***
+
 ![https://github.com/crkaide/School_District_Analysis/blob/main/Report_Screen_Shots/r_1_2_district_summary_new.png?raw=true](https://github.com/crkaide/School_District_Analysis/blob/main/Report_Screen_Shots/r_1_2_district_summary_new.png?raw=true)
 
 ### School summary
